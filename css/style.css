@@ -1,0 +1,159 @@
+body {
+    background-color: white;
+    line-height: 2.5;
+}
+
+ol,
+li {
+    list-style: none;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 0;
+    background-color: black;
+    padding-right: 6px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-left: 1px;
+    align-content: center;
+}
+
+
+.icon-bar a {
+    background: #fff;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    transition: all 0.5s;
+    font-size: 20px;
+}
+.home{
+    color: deeppink;
+}
+.fa-user{
+    color: purple;
+}
+.download {
+    color: blue;
+}
+
+.zoom:hover {
+    transform: scale(2);
+    transition-duration: .2s;
+}
+
+.insta {
+    color: #fff;
+}
+
+.phone {
+    color: forestgreen;
+}
+
+
+.fa-id-card{
+    color: crimson
+}
+.fa-images{
+    color: #ea09ba;
+}
+.icon-menu {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 8px;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 6px;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+.navshow {
+    line-height: 4.2rem;
+}
+
+.nshow {
+    display: none;
+}
+
+
+.line {
+    border: 2px solid #c7111100;
+    height: 3px;
+    /*    width: 75%;*/
+    background-color: blue;
+    text-align: center;
+    margin: 2rem 6rem;
+}
+
+.footer{
+    height: 50%;
+}
+
+.fa-twitter {
+    color: #fff;
+}
+
+.fa-telegram {
+    color: #fff;
+}
+.fa-instagram{
+    color: white;
+}
+.fa-envelope {
+    color: darkmagenta;
+}
+
+.fa-phone-square {
+    color: springgreen;
+}
+.shov:hover{
+        transform: translateY(-4px);
+
+}
+footer{
+    line-height: 1;
+     background-color: #2d2923;
+}
+.t_content{
+    background-color: white;
+    border: dashed #74b9ff 2px;
+}
+.comment-show{
+    padding: 30px 30px 30px 30px;
+    background-color: #eaf3f7;
+    margin-bottom: 10px;
+}
+
+
+[class*="col-"] {
+    padding: 1rem;
+}
