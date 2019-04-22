@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2019 at 11:19 PM
+-- Generation Time: Apr 22, 2019 at 09:24 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.2
 
@@ -32,7 +32,7 @@ CREATE TABLE `register` (
   `id` int(100) NOT NULL,
   `email` varchar(30) COLLATE utf8_persian_ci NOT NULL,
   `name` varchar(30) COLLATE utf8_persian_ci NOT NULL,
-  `password` varchar(10) COLLATE utf8_persian_ci NOT NULL
+  `password` text COLLATE utf8_persian_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_persian_ci;
 
 --
